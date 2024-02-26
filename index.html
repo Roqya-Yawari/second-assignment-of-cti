@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Review Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#">Latest Reviews</a></li>
+            <li><a href="#"> Top Rated</a></li>
+            <li><a href="#">Contact Us </a></li>
+            <li><a href="#"> About Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>Movie Review Website</h1>
+        <section id="latest-reviews-sction">
+          <h2>The Hundred</h2>
+          <img src="poster.png" alt="A poster from the 100" />
+          <h3>Review summaries</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit,
+            repudiandae! Delectus, cum iste quis eligendi totam ipsum animi
+            maiores exercitationem vel. Quaerat, exercitationem? Ea, tenetur?
+            Sapiente dolores modi reprehenderit neque.
+          </p>
+          <a href="youtube.com">Read the full review</a>
+          <br />
+          <video
+            src="final project2.mp4"
+            controls
+            width="500"
+            height="300"
+            poster="2-img.jpg"
+          ></video>
+        </section>
+        <section id="top-rated-section">
+          <table border="1">
+            <tr>
+              <th>Rank</th>
+              <th>Title</th>
+              <th>Year</th>
+              <th>Rating</th>
+
+              <th>Genre</th>
+            </tr>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Top movies</td>
+                <td>2014</td>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>Action movie</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section id="related-links-section">
+          <aside>
+            <ul>
+              <li><a href="#">Upcoming movies</a></li>
+              <li><a href="#">Interviews with directors</a></li>
+              <li><a href="#">Actors/Actresses</a></li>
+            </ul>
+          </aside>
+        </section>
+        <section id="detailed-contact-section">
+          <form action="#">
+            <label for="name">Name</label><br />
+            <input id="name" type="text" placeholder="Your name" /><br />
+            <label for="email">Email</label><br />
+            <input id="email" type="email" placeholder="Your email" />
+            <br />
+            <br />
+            <label for="select">Favorite movie genre</label>
+            <select name="" id="select">
+              <option value="action">Action</option>
+              <option value="Comedy">Comedy</option>
+              <option value="Romantic">Romantic</option>
+              <option value="Science">Science fiction</option>
+            </select>
+            <br />
+            <br />
+            <label for="">Your messages and comments:</label><br />
+            <textarea name="" id="" cols="30" rows="10"></textarea><br />
+
+            <input type="checkbox" />
+            <label for="">Subscribe to the newsletter</label><br />
+            <br />
+            <input type="submit" />
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>Made by Roqya Yawari &copy; 2024</p>
+      </footer>
+    </div>
+  </body>
+</html>
